@@ -1,11 +1,16 @@
 <?php
 /**
- * Plugin Name: Anber wo checkout
- * Description: Woocommerce checkout customizer plugin
- * Version: 1.0
+ * @wordpress-plugin
+ * Plugin Name:       Anber-woocommerce-steeper-checkout
+ * Plugin URI:        https://github.com/asifhossain32/Anber-woocommerce-steeper-checkout
+ * Description:       Woocommerce checkout editor
+ * Version:           1.0.1
+ * Author:            Mohammad Asif Hossain
+ * Author URI:        https://github.com/asifhossain32
+ * License:           GPLv3
+ * License URI:       http://www.gnu.org/licenses/gpl-3.0.html
+ * Text Domain:       anber-wo-checkout
  * 
- * Author: MD Enam Ahamed Chowdhury
- * Author URI: https://github.com/enamahamed
  */
 // Ensure Carbon Fields is loaded
 if (!class_exists('Carbon_Fields\Carbon_Fields')) {
